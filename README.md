@@ -4,7 +4,11 @@ Clone visual do funil multi-step (Whats Spy style), **sem tracking do original**
 
 ## Live
 
-After deploy: open `/phone.html` (or `/` which redirects).
+- **Start:** https://renatofrancaa.github.io/zapspy-funnel/phone.html  
+- **Home:** https://renatofrancaa.github.io/zapspy-funnel/  
+- **Repo:** https://github.com/renatofrancaa/zapspy-funnel  
+
+Test on **mobile** or Chrome DevTools device mode.
 
 ## Local
 
