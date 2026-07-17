@@ -1,0 +1,10 @@
+import fs from 'fs';
+const h = fs.readFileSync('cta.html', 'utf8');
+console.log('has37', h.includes('tier-amount">37'));
+console.log('has67', h.includes('tier-amount">67'));
+console.log('inline2col', h.includes('grid-template-columns:1fr 1fr'));
+console.log('fix', h.includes('tier-price-fix-v2'));
+console.log('moj', (h.match(/â€|ðŸ/g) || []).length);
+console.log('emoji', /[\u{1F300}-\u{1FAFF}]/u.test(h));
+const snippet = h.match(/tier-anchor-wrap[\s\S]{0,180}/);
+console.log('snippet', snippet && snippet[0].slice(0, 180));

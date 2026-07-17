@@ -1,0 +1,46 @@
+/* Brand tokens — Whats Spy / light funnel greens */
+:root {
+  --brand-primary: #00a884;
+  --brand-primary-strong: #008f6f;
+  --brand-primary-soft: rgba(0, 168, 132, 0.12);
+  --brand-primary-ring: rgba(0, 168, 132, 0.35);
+  --brand-primary-glow: rgba(0, 168, 132, 0.25);
+  --brand-success: #25d366;
+  --text-on-brand: #ffffff;
+
+  --green-primary: #00a884;
+  --green-dark: #008f6f;
+  --green-light: #34eb7a;
+
+  --bg: #f5f0eb;
+  --surface: #ffffff;
+  --surface-2: #f3f4f6;
+  --surface-muted: #f5f0eb;
+  --text-1: #111827;
+  --text-2: #6b7280;
+  --text-3: #9ca3af;
+  --border: #e5e7eb;
+  --color-danger: #ef4444;
+  --color-danger-soft: rgba(239, 68, 68, 0.1);
+  --color-warning: #f59e0b;
+  --color-warning-soft: rgba(245, 158, 11, 0.1);
+  --bubble-in: #ffffff;
+  --bubble-out: #d9fdd3;
+  --radius-md: 12px;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 120ms;
+  --dur-base: 200ms;
+  --tracking-snug: -0.02em;
+  --shadow-cta: 0 8px 20px rgba(0, 168, 132, 0.28);
+  --shadow-ring: 0 0 0 3px rgba(0, 168, 132, 0.2);
+
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+body.theme-light {
+  --surface: #ffffff;
+  --text-1: #111827;
+  --text-2: #6b7280;
+}
