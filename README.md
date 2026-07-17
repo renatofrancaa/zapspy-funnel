@@ -2,13 +2,18 @@
 
 Clone visual do funil multi-step (Whats Spy style), **sem tracking do original** e **sem backend Railway deles**.
 
-## Live
+## Live (Vercel)
 
-- **Start:** https://renatofrancaa.github.io/zapspy-funnel/phone.html  
-- **Home:** https://renatofrancaa.github.io/zapspy-funnel/  
+- **Start:** https://funnel-clone.vercel.app/phone.html  
+- **Home:** https://funnel-clone.vercel.app/ (rewrite → phone)  
 - **Repo:** https://github.com/renatofrancaa/zapspy-funnel  
+- **Dashboard:** https://vercel.com/renatofrancaa-7241s-projects/funnel-clone  
 
 Test on **mobile** or Chrome DevTools device mode.
+
+### Custom domain
+
+Vercel → Project → **Settings → Domains** → add `seudominio.com` → copy the DNS records into your registrar.
 
 ## Local
 
